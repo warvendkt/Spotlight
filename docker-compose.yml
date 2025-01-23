@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 
 services:
   web:
@@ -11,5 +11,5 @@ services:
       - webnet_spotlight
 
 networks:
-  webnet:
-    driver: webnet_spotlight
+  webnet_spotlight:
+    driver: bridge
