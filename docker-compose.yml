@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8053:80"  # Mappe le port 8080 de la machine locale au port 80 du conteneur Nginx
+    volumes:
+      - ./html:/usr/share/nginx/html  # Monte le répertoire html de votre machine dans le conteneur
+    networks:
+      - webnet_spotlight
+
+networks:
+  webnet:
+    driver: webnet_spotlight
