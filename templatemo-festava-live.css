@@ -694,15 +694,16 @@ strong {
 }
 
 .schedule-table .pop-background-image {
-  background-image: url('../images/artists/S32.jpeg');
+  background-image: url('../images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg');
 }
 
 .schedule-table .rock-background-image {
-  background-image: url('../images/artists/S31.jpeg');
+  background-image: url('../images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg');
 }
 
 .schedule-table .country-background-image {
-  background-image: url('../images/artists/S33.jpeg');
+    background-image: url('../images/artists/S30.jpeg');
+
 }
 
 .table-background-image-wrap {
