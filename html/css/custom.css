@@ -1,5 +1,5 @@
 @media (max-width: 700px) {
-    .box-detail, header{
+    .box-detail, header,.remise{
         visibility: hidden;
     }
 }
