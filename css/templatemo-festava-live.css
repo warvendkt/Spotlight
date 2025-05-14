@@ -1020,3 +1020,7 @@ strong {
   }
 }
 
+  .highlight-orange {
+    color: orange;
+    font-weight: bold;
+  }
